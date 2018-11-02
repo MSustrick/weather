@@ -1,5 +1,7 @@
 module.exports = {
   entry: ['./src/index.js'],
+  devtool: '#eval-source-map',
+  debug: true,
   output: {
     path: __dirname,
     publicPath: '/',
